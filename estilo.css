@@ -367,7 +367,7 @@ label input{
   flex-wrap: wrap;
   border: none;
   justify-content: flex-start;
-  gap: 16px;
+  gap: 10px;
  
  
 
@@ -398,15 +398,6 @@ background-color:var(--colorprimary);
     
 }
 
-
-textarea{
-    background-color: transparent;
-    border: 2px solid var(--colorprimary);
- height: 50px;
- 
-
- 
-}
 
 #button{
     background-color: var(--colorprimary);
@@ -580,7 +571,9 @@ textarea{
     display: block;
     text-align: center;
 }
-
+.check label{
+  font-size: 1rem;
+}
 
 }
 @media(max-width:700px){
