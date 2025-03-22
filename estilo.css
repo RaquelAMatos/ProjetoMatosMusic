@@ -191,7 +191,7 @@ main{
 .conteudosecundario h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color:var(--colorsecund);
     text-align: center;
     
@@ -436,7 +436,7 @@ textarea{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 60vh;
     
   }
   .cabecalho{
@@ -451,6 +451,9 @@ textarea{
     justify-content: center;
     height: auto;
     
+  } 
+  .fieldform{
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 812px){
@@ -577,15 +580,16 @@ textarea{
     display: block;
     text-align: center;
 }
-.card{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
 
-  
 
 }
-
+@media(max-width:700px){
+  .card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
 }
+
 @media (max-width: 563px){
   .logo{
     display: none;
@@ -617,7 +621,11 @@ textarea{
     }
 
 }  
-
+@media (max-width: 563px){
+  .fieldform{
+    margin-bottom: 10px;
+  }
+}
 
 
 
